@@ -1,0 +1,190 @@
+body{
+    background-image: url(https://th.bing.com/th/id/R.16ce4ac874fdb73e36e8a28d2da10ed9?rik=gOYcGXP%2ba8Q%2fwA&pid=ImgRaw&r=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+}
+
+.contenedor{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pokecontainer{
+    width: 45%;
+    background-color: rgb(218, 47, 47);
+    border-radius: 15px;
+    border: solid 8px;
+    border-color: brown;
+    padding-bottom: 15px;
+}
+
+.adornos1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+.botoncito{
+    width: 10%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.logo{
+    width: 70%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.imgcontainer{
+    background-color: rgb(224, 224, 224);
+    width: 60%;
+    height: 250px;
+    margin: auto;
+    border: outset 3px;
+    border-radius: 25px;
+    border-color: darkgray;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto{
+    width: 100%;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.buscador{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 3%;
+}
+.inputnombre{
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1%;
+    background-color: rgb(224, 224, 224);
+}
+.botonbuscar{
+    width: 45%;
+    background-color: green;
+    color: white;
+    font-size: x-large;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+button:hover{
+    border: outset 3px;
+    border-color: black;
+}
+
+/*Segunda parte*/
+
+.descriptioncontainer{
+    width: 100%;
+    margin: auto;
+}
+.pantalla{
+    width: 70%;
+    margin: auto;
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+.descripcion{
+    width: 100%;
+    height: 120px;
+    border-radius: 5px;
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+.masinfo{
+    width: 100%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.botoninfo{
+    width: 40%;
+    padding: 3%;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border: outset 3px;
+    border-color: rgb(77, 74, 74);
+    margin-bottom: 5%;
+}
+
+.botontipo{
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border: outset 3px;
+    border-color: rgb(77, 74, 74);
+}
+.informacion{
+    width: 70%;
+    height: 110px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 5%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.infos{
+    width: 45%;
+}
+
+
+.adorno2{
+    width: 90%;
+    margin: auto;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.botonescuad{
+    width: 45%;
+}
+
+.tittle{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+
+.Entradas{
+    width: 100%;
+    clear: right;
+}
